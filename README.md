@@ -2,9 +2,6 @@
 
 **cordova plugin, support Android**
 
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/monkeyDledger/cordova-plugin-screenrecord)
-[![Github All Releases](https://img.shields.io/github/downloads/monkeyDledger/cordova-plugin-screenrecord/total.svg)]([![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/monkeyDledger/cordova-plugin-screenrecord))
-
 [![NPM](https://nodei.co/npm/cordova-plugin-screenrecord.png?compact=true)](https://nodei.co/npm/cordova-plugin-screenrecord/)
 
 using MediaRecorder or MediaMuxer to record Android device's screen
