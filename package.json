@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-screenrecord",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "using MediaRecorder or MediaMuxer to record Android device's screen",
   "cordova": {
     "id": "com.unionpay.screenrecord",
