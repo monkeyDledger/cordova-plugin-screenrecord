@@ -17,6 +17,8 @@
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/MediaRecordService.java"
+                     target-dir="src/com/unionpay/screenrecord"/>
         <source-file src="src/android/ScreenRecord.java"
                      target-dir="src/com/unionpay/screenrecord"/>
         <source-file src="src/android/ScreenRecordService.java"
