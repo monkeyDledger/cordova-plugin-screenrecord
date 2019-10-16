@@ -65,7 +65,7 @@ public class MediaRecordService extends Thread {
 	mMediaRecorder.setVideoFrameRate(FRAME_RATE);
 	mMediaRecorder.setVideoEncodingBitRate(mBitRate);
 	mMediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.H264);
-	mMediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
+	mMediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.HE_AAC);
 
 	try {
 	    mMediaRecorder.prepare();
