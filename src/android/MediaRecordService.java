@@ -59,7 +59,7 @@ public class MediaRecordService extends Thread {
 	mMediaRecorder = new MediaRecorder();
 	mMediaRecorder.setVideoSource(MediaRecorder.VideoSource.SURFACE);
 	/*mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);*/
-	mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.REMOTE_SUBMIX);
+	mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
 	mMediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
 	mMediaRecorder.setOutputFile(mDstPath);
 	mMediaRecorder.setVideoSize(mWidth, mHeight);
