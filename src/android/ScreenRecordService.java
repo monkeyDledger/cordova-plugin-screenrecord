@@ -74,7 +74,7 @@ public class ScreenRecordService extends Thread {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            mVirtualDisplay = mMediaProjection.createVirtualDisplay(TAG + "-display", mWidth, mHeight, mDpi,
+            mVirtualDisplay = mMediaProjection.createVirtualDisplay(TAG + "-display", mWidth, mWidth, mDpi,
                     DisplayManager.VIRTUAL_DISPLAY_FLAG_PUBLIC, mSurface, null, null);
             Log.d(TAG, "created virtual display: " + mVirtualDisplay);
             recordVirtualDisplay();
